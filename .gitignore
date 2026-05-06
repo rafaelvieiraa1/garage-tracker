@@ -1,0 +1,25 @@
+# Dependências de Node (Frontend)
+node_modules/
+.next/
+out/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# Compilação Java (Backend)
+target/
+*.class
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# Configurações de IDE e Sistema
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Arquivos de Ambiente (Segurança)
+.env
+.env.local
+application.properties
